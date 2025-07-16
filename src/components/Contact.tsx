@@ -33,7 +33,7 @@ export default function Contact() {
             Start Your Project
           </h2>
           <p className="text-xl text-secondary-300 max-w-3xl mx-auto">
-            Ready to bring your embedded software vision to life? Let's discuss your requirements.
+            Ready to bring your embedded software vision to life? Let&apos;s discuss your requirements.
           </p>
           <div className="mt-4 w-24 h-1 bg-gradient-to-r from-primary-500 to-tech-cyan mx-auto rounded-full"></div>
         </div>
