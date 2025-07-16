@@ -1,8 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  trailingSlash: true,
+  // Remove static export for development, add it back for production builds
+  // output: 'export',
+  // trailingSlash: true,
   images: {
     unoptimized: true
   }
