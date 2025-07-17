@@ -3,21 +3,21 @@ export default function Services() {
     {
       title: "Consumer Electronics",
       description: "Embedded C solutions for smart devices, IoT products, and consumer appliances with focus on performance and reliability.",
-      features: ["Real-time Systems", "Low Power Design", "Sensor Integration", "Wireless Connectivity"],
+      features: ["Real-time Systems", "Low Power Design", "Sensor Integration", "Wireless Connectivity", "RTOS", "Board Bring up", "Troubleshooting"],
       icon: "🔌",
       color: "tech-green"
     },
     {
       title: "Automotive Systems",
       description: "Safety-critical embedded software for automotive applications, meeting industry standards and regulations.",
-      features: ["AUTOSAR Compliance", "Functional Safety", "CAN/LIN Protocols", "ECU Development"],
+      features: ["AUTOSAR Compliance", "Functional Safety", "CAN/LIN Protocols", "ECU Development", "Test Code"],
       icon: "🚗",
       color: "tech-cyan"
     },
     {
       title: "Hardware Integration",
       description: "Seamless integration between software and hardware components for optimal system performance.",
-      features: ["Driver Development", "Board Support Packages", "Hardware Abstraction", "Performance Optimization"],
+      features: ["Driver Development", "Board Support Packages", "Hardware Abstraction", "Performance Optimization", "Test Jigs"],
       icon: "⚡",
       color: "tech-orange"
     }
@@ -32,7 +32,7 @@ export default function Services() {
             Embedded Solutions
           </h2>
           <p className="text-xl text-secondary-300 max-w-3xl mx-auto">
-            Specialized C programming expertise for mission-critical embedded systems
+            Specialized C/C++ programming expertise for mission-critical embedded systems
           </p>
           <div className="mt-4 w-24 h-1 bg-gradient-to-r from-primary-500 to-tech-cyan mx-auto rounded-full"></div>
         </div>

@@ -30,7 +30,7 @@ export default function Hero() {
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-secondary-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Professional C programming solutions for{' '}
+            Embedded system solutions for{' '}
             <span className="text-tech-green font-semibold">consumer electronics</span> and{' '}
             <span className="text-tech-cyan font-semibold">automotive systems</span>
           </p>

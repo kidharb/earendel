@@ -151,7 +151,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">Email</h4>
-                    <p className="text-secondary-300">contact@earendel.dev</p>
+                    <p className="text-secondary-300">technical@earendel.co.za</p>
                   </div>
                 </div>
 
@@ -163,7 +163,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-white font-semibold mb-1">Response Time</h4>
-                    <p className="text-secondary-300">Within 24 hours</p>
+                    <p className="text-secondary-300">Within 1 hour</p>
                   </div>
                 </div>
 
@@ -187,11 +187,11 @@ export default function Contact() {
               <h3 className="text-xl font-bold text-white mb-6">Why Choose Earendel?</h3>
               <div className="grid grid-cols-2 gap-4">
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-tech-green mb-1">15+</div>
+                  <div className="text-2xl font-bold text-tech-green mb-1">20+</div>
                   <div className="text-sm text-secondary-400">Years Experience</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-2xl font-bold text-tech-cyan mb-1">100+</div>
+                  <div className="text-2xl font-bold text-tech-cyan mb-1">Multiple</div>
                   <div className="text-sm text-secondary-400">Projects Delivered</div>
                 </div>
                 <div className="text-center">
