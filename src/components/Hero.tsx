@@ -62,7 +62,7 @@ export default function Hero() {
               <div className="text-secondary-300 text-sm">Years Experience</div>
             </div>
             <div className="bg-secondary-800/50 backdrop-blur-sm border border-primary-500/20 rounded-lg p-6 hover:border-primary-400/40 transition-colors duration-300">
-              <div className="text-tech-cyan text-2xl font-bold mb-2">100+</div>
+              <div className="text-tech-cyan text-2xl font-bold mb-2">Multiple</div>
               <div className="text-secondary-300 text-sm">Projects Delivered</div>
             </div>
             <div className="bg-secondary-800/50 backdrop-blur-sm border border-primary-500/20 rounded-lg p-6 hover:border-primary-400/40 transition-colors duration-300">
