@@ -11,7 +11,7 @@ export default function Navigation() {
     { href: '/about', label: 'About' },
     { href: '/solutions', label: 'Embedded Solutions' },
     { href: '/case-studies', label: 'Case Studies' },
-    { href: '/contact', label: 'Contact' },
+    { href: '#contact', label: 'Contact' },
   ]
 
   return (

@@ -4,21 +4,34 @@ export default function Services() {
       title: "Consumer Electronics",
       description: "Embedded C solutions for smart devices, IoT products, and consumer appliances with focus on performance and reliability.",
       features: ["Real-time Systems", "Low Power Design", "Sensor Integration", "Wireless Connectivity", "RTOS", "Board Bring up", "Troubleshooting"],
-      icon: "🔌",
+      icon: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
+        </svg>
+      ),
       color: "tech-green"
     },
     {
       title: "Automotive Systems",
       description: "Safety-critical embedded software for automotive applications, meeting industry standards and regulations.",
       features: ["AUTOSAR Compliance", "Functional Safety", "CAN/LIN Protocols", "ECU Development", "Test Code"],
-      icon: "🚗",
+      icon: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3m-6 6h12a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V9a2 2 0 012-2z" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z" />
+        </svg>
+      ),
       color: "tech-cyan"
     },
     {
       title: "Hardware Integration",
       description: "Seamless integration between software and hardware components for optimal system performance.",
       features: ["Driver Development", "Board Support Packages", "Hardware Abstraction", "Performance Optimization", "Test Jigs"],
-      icon: "⚡",
+      icon: (
+        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+        </svg>
+      ),
       color: "tech-orange"
     }
   ]
@@ -45,7 +58,7 @@ export default function Services() {
               className="group bg-secondary-900/50 backdrop-blur-sm border border-primary-500/20 rounded-xl p-8 hover:border-primary-400/40 transition-all duration-300 transform hover:-translate-y-2 hover:shadow-xl hover:shadow-primary-500/10"
             >
               {/* Service Icon */}
-              <div className="text-4xl mb-6 floating" style={{ animationDelay: `${index * 0.2}s` }}>
+              <div className={`w-16 h-16 bg-gradient-to-br from-${service.color} to-primary-500 rounded-lg flex items-center justify-center mb-6 floating text-white`} style={{ animationDelay: `${index * 0.2}s` }}>
                 {service.icon}
               </div>
 
