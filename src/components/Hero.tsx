@@ -45,15 +45,6 @@ export default function Hero() {
             </p>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="tech-button bg-gradient-to-r from-primary-600 to-primary-500 hover:from-primary-500 hover:to-primary-400 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-primary-500/25">
-              Explore Solutions
-            </button>
-            <button className="tech-button border-2 border-tech-cyan text-tech-cyan hover:bg-tech-cyan hover:text-secondary-900 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105">
-              View Case Studies
-            </button>
-          </div>
 
           {/* Tech specs display */}
           <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
