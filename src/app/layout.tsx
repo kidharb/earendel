@@ -1,4 +1,4 @@
-import type { Metadata } from 'next'
+import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   description: 'Professional embedded software development for consumer and automotive applications. Specializing in low level programming and hardware integration.',
   keywords: 'embedded software, C programming, automotive software, consumer electronics, hardware integration, Earendel',
   authors: [{ name: 'Earendel' }],
-  viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
   openGraph: {
     title: 'Earendel - Embedded Software Solutions',
@@ -17,6 +16,11 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
   },
+}
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
 }
 
 export default function RootLayout({
