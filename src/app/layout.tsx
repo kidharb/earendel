@@ -5,15 +5,15 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Earendel - Embedded Software Solutions',
-  description: 'Professional embedded software development for consumer and automotive applications. Specializing in low level programming and hardware integration.',
+  title: 'Earendel - Solutions',
+  description: 'Professional embedded software development for consumer and automotive applications. Specializing in C programming and hardware integration.',
   keywords: 'embedded software, C programming, automotive software, consumer electronics, hardware integration, Earendel',
   authors: [{ name: 'Earendel' }],
   viewport: 'width=device-width, initial-scale=1',
   robots: 'index, follow',
   openGraph: {
-    title: 'Earendel - Embedded Software Solutions',
-    description: 'Professional embedded software and hardware development for consumer and automotive applications.',
+    title: 'Earendel - Solutions',
+    description: 'Professional embedded software development for consumer and automotive applications.',
     type: 'website',
     locale: 'en_US',
   },
