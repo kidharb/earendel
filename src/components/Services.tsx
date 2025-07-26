@@ -42,7 +42,7 @@ export default function Services() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 glow-text">
-            Services
+            Embedded Solutions
           </h2>
           <p className="text-xl text-secondary-300 max-w-3xl mx-auto">
             Specialized C/C++ programming expertise for mission-critical embedded systems
