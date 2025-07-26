@@ -96,7 +96,7 @@ export default function About() {
             <p className="text-secondary-300 leading-relaxed mb-4">
               Earendel, discovered by the Hubble Space Telescope, is the most distant star known to humanity 
               at 12.9 billion light-years away in the constellation Cetus. Like this distant beacon of light, 
-              we strive to push the boundaries of what's possible in embedded systems development.
+              we strive to push the boundaries of what is possible in embedded systems development.
             </p>
             <div className="text-tech-cyan text-sm matrix-text">
               12.9 billion light-years • Constellation Cetus • Hubble Discovery • WHL0137-LS
